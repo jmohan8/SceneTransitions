@@ -4,6 +4,13 @@
 
     <fade
         android:duration="2000"
+        android:fadingMode="fade_out">
+        <targets>
+            <target android:targetId="@+id/button3" />
+        </targets>
+    </fade>
+    <fade
+        android:duration="2000"
         android:fadingMode="fade_in">
         <targets>
             <target android:targetId="@+id/button3" />
